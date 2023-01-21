@@ -1,3 +1,48 @@
+@font-face {
+    font-family: 'Fixedsys62';
+    src: url('Fixedsys62.ttf') format('truetype');
+}
+
+a{
+    text-decoration: none;
+    color: rgba(250, 250, 250, 0.64);
+}
+.container{
+    background-color: #0009AF;
+    font-family:'Fixedsys62';
+}
+
+header{
+    width: 100%;
+    padding-top: 24px;
+}
+
 nav {
     display: flex;
+    max-width: 1392px;
+    height: 64px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 0 96px;
+}
+
+nav .main_nav:last-child{
+    width: 192px;
+}
+
+.main_nav{
+    width: 232px;
+    height: 16px;
+    margin-top: 28px;
+
+}
+
+.main_nav a:first-child{
+    padding-right: 30px;
+}
+
+.logo{
+    color: #ffffff;
+    font-size: 32px;
+    margin: 16px 0px;
 }
