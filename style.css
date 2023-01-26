@@ -1,0 +1,298 @@
+/* General_styles */
+
+@font-face {
+    font-family: 'Fixedsys62';
+    src: url('Fixedsys62.ttf') format('truetype');
+}
+
+/* animating the blink */
+.blink{
+    animation: blinkAnimation infinite 1s;
+}
+@keyframes blinkAnimation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+a{
+    text-decoration: none;
+    color: rgba(250, 250, 250, 0.64);
+}
+
+h2{
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+h5{
+    margin: 40px auto 0px 96px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.btn{
+    width: 192px;
+    height: 56px;
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 24px;
+}
+
+.img_bx{
+    margin: 64px 40px auto 96px;
+    min-width: 480px;
+    height: 480px;
+}
+
+.txt_bx{
+    width: 680px;
+    height: 234px;
+    margin-top: 187px;
+}
+/* Container */
+.container{
+    background-color: #0009AF;
+    font-family:'Fixedsys62';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header_section */
+
+header{
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    width: 1392px;
+    height: 64px;
+    justify-content: space-around;
+}
+
+nav .main_nav:last-child{
+    width: 192px;
+}
+
+.main_nav{
+    width: 232px;
+    height: 16px;
+    margin-top: 28px;
+}
+
+.main_nav a:first-child{
+    padding-right: 30px;
+}
+
+.logo{
+    color: #ffffff;
+    font-size: 32px;
+    margin: 16px 0px;
+}
+
+/* hero_section */
+.hero_section{
+    width:1392px;
+    height: 722px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero_text{
+    text-align: center;
+    width: 1200px;
+    height: 144px;
+    font-size: 72px;
+    color: #ffffff;
+    margin: 264px 0 0 0;
+}
+
+.hero_subtext{
+    text-align: center;
+    margin: 30px 0 0 0;
+    color: rgba(250, 250, 250, 0.64);
+    width: 1200px;
+}
+
+.main_cta{
+    background-color: #ffffff;
+    color: #0009AF;
+    margin-top: 80px;
+}
+
+/* Second_section */
+
+.section2{
+    width: 1392px;
+    height: 548px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2_heading{
+    width: 1200px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.section2_subtext{
+    text-align: center;
+    width: 1200px;
+    color: rgba(250, 250, 250, 0.64);
+    margin: 24px 0 0 0;
+}
+
+.secondary_cta{
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    margin-top: 40px;
+}
+
+/* Third_section */
+.section3{
+    width: 1392px;
+    height: 720px;
+}
+
+.card-container{
+    position: relative;
+}
+
+.card{
+    position: absolute;
+}
+
+.card_title{
+    margin-top: 0px;
+}
+
+.card_p{
+    margin: 34px 0 0 0;
+    color: rgba(250, 250, 250, 0.64);
+}
+
+/* Fifth_section */
+.section5{
+    width:1392px;
+    height: 722px;
+}
+.section5 h5{
+    margin-bottom: 64px;
+}
+.section5 .PortfolioBox{
+    height: 480px;
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 40px;
+}
+.section5 .portfolioBox .imgHolder{
+    width: 373.33px;
+    height: 480px;
+    display: flex;
+    position: relative;
+}
+.imgHolder .hover{
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+.imgHolder img{
+    width: 373.33px;
+    height: 480px;
+}
+
+/* Six_section */
+.section6{
+    height: 1008px;
+    width: 1200px;
+    padding: 120px, 96px, 120px, 96px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.section6 img{
+    height: 480px;
+    width: 480px;
+    justify-self: end;
+}
+.section6 form{
+    width: 640px;
+    height: 768px;
+}
+form h1{
+    color: white;
+    margin: 0 0 50px 0;
+    width: 640px;
+    font-weight: 500;
+    font-size: 72px;
+}
+form input{
+    margin: 10px 0;
+    width: 640px;
+    outline: none;
+    height: 56px;
+    font-size: 24px;
+    padding: 16px, 24px, 16px, 24px;
+    background-color: inherit;
+    border: 2px solid white;
+}
+form input::placeholder{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 30px;
+}
+form textarea{
+    margin-top: 10px;
+    height: 240px;
+    width: 640px;
+    font-size: 24px;
+    left: 0px;
+    outline: none;
+    top: 320px;
+    background-color: inherit;
+    border: 2px solid white;
+}
+form textarea::placeholder{
+    color: white;
+    font-size: 24px;
+}
+
+/* footer */
+footer{
+    display: flex;
+    height: 72px;
+    width: 1200px;
+    color: white;
+    justify-content: space-between;
+}
+footer .left{
+    gap: 16px;
+    align-items: center;
+    display: flex;
+}
+footer .left .toTop{
+    gap: 16px;
+    display: flex;
+    align-items: center;
+}
