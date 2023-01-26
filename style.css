@@ -326,13 +326,18 @@ transform: translateY(-100%);
   .slideshow_1 .list .list_item,
   .slideshow_2 .reverse .list_item {
     display: inline;
-  }
+  } 
   
 /* Fifth_section */
 .section5{
     width:1392px;
     height: 722px;
+    margin-top: 40px;
 }
+
+/* .PortfolioBox{
+    display: flex;
+} */
 .section5 h5{
     margin-bottom: 64px;
 }
